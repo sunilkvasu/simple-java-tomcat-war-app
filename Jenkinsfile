@@ -6,6 +6,10 @@ stage('test') {
     echo "Test stage"
     sleep 10
 }
+stage('quality') {
+    echo "Deploy stage"
+    sleep 10
+}
 stage('deploy') {
     echo "Deploy stage"
     sleep 10
