@@ -1,16 +1,16 @@
 stage('build') {
     echo "Build stage"
-    sleep 10
+    sleep 2
 }
 stage('test') {
     echo "Test stage"
-    sleep 10
+    sleep 2
 }
 stage('quality') {
     echo "Deploy stage"
-    sleep 10
+    sleep 2
 }
 stage('deploy') {
     echo "Deploy stage"
-    sleep 10
+    sleep 2
 }
