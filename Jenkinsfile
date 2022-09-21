@@ -1,5 +1,6 @@
 stage('build') {
     echo "Build stage"
+    mvn build
     sleep 2
 }
 stage('test') {
