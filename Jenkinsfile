@@ -1,6 +1,11 @@
+pipeline
+{
+agent any
+stages
+{
 stage('build') {
     echo "Build stage"
-    mvn build
+    sh "mvn build"
     sleep 2
 }
 stage('test') {
@@ -14,4 +19,6 @@ stage('quality') {
 stage('deploy') {
     echo "Deploy stage"
     sleep 2
+}
+}
 }
